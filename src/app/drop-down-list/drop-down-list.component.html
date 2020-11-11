@@ -1,0 +1,15 @@
+<div class="list-container">
+    <p>Use the up and down arrow keys to navigate the list</p>
+    <p>Hit the enter key to call the function on the list item</p>
+    <ul>
+        <li
+            *ngFor="let area of areaList; index as i; last as isLast"
+            #listItem
+            (keyup.arrowdown)="navigateList('down')"
+            (keyup.arrowup)="navigateList('up')"
+            (keyup.enter)="getItem(area)"
+            tabindex="0">
+            {{area}}
+        </li>
+    </ul>
+</div>

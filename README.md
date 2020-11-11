@@ -1,4 +1,10 @@
-# ListitemFocusWithArrowKeys
+# Angular @ViewChildren decorator demo app
+
+A demo angular app using the @ViewChildren decorator to enable keyboard (up arrow, down arrow and enter keys) interaction with list items.
+
+By [Ade Oyebadejo](https://www.clade.co.uk/adewole)
+
+## Technology
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 

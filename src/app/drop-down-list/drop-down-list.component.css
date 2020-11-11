@@ -1,0 +1,25 @@
+p {
+    color: #c700ac;
+    font-weight: 600;
+}
+
+.list-container {
+    width: 350px;
+    margin: 0px auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 4px 10px;
+}
+
+li:focus {
+    background-color: #e5e5e5;
+    outline: none;
+    font-weight: 600;
+}
